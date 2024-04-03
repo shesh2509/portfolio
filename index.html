@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/p-logo.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
+
+    <!--=============== FONT-AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio - Shesh</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">P</span>
+          <span class="nav__logo-name">Shesh Nath Kumar</span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
+          <h3 class="nav__name">Shesh</h3>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+        <div class="nav__buttons">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Shesh Nath Kumar</h1>
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="assets/img/home-image.jpeg"
+                alt="image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
+              <img
+                src="assets/img/curved-arrow.png"
+                alt="image"
+                class="home__arrow"
+              />
+              <img
+                src="assets/img/random-lines.png"
+                alt="image"
+                class="home__line"
+              />
+              <div class="geometric-box"></div>
+            </div>
+            <div class="home__social">
+              <a
+                href="https://www.hackerrank.com/profile/shesh_09"
+                target="_blank"
+                class="home__social-link"
+              >
+                <iconify-icon icon="cib:hackerrank"></iconify-icon>
+              </a>
+              <a
+                href="https://github.com/shesh2509"
+                target="_blank"
+                class="home__social-link"
+              >
+              <iconify-icon icon="mingcute:github-fill"></iconify-icon>
+              </a>
+              <a
+                href="https://leetcode.com/shesh2509/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <p class="home__description">
+              <b>Full Stack Developer</b>, with knowledge in web development and
+              design, I deliver top-tier projects that consistently reflect
+              quality craftsmanship.
+            </p>
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Me.</span>
+          </h2>
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="assets/img/about-image.jpg"
+                alt="image"
+                class="about__img"
+              />
+              <div class="about__shadow"></div>
+              <div class="geometric-box"></div>
+              <img
+                src="assets/img/random-lines.png"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+          <div class="about__info">
+            <p class="about__description">
+              Aspiring tech <b>problem solver</b>, driven by a passion for
+              <b>innovation</b> and <b>growth</b> in the dynamic landscape of
+              technology. Eager to contribute <b>creative solutions</b> and make
+              an <b>impact</b>.
+            </p>
+            <ul class="about__list">
+              <li class="about__item">
+                <b>Technical Skills:</b> C, C++, Java, Data Structures, MySQL,
+                HTML, CSS, JS, React & Bootstrap.
+              </li>
+              <li class="about__item">
+                <b>Core Subjects:</b> Object Oriented Programming & Database
+                Management System, Computer Networks, Operation System.
+              </li>
+              <li class="about__item">
+                <b>Tools:</b> VS Code, Postman, Git, GitHub.
+              </li>
+              <li class="about__item">
+                <b>Soft Skills:</b> Leadership, Problem Solving, Adaptability &
+                Dedication.
+              </li>
+            </ul>
+            <div class="about__buttons">
+              <a href="Shesh Resume.pdf" class="button" target="_blank">
+                <i class="ri-send-plane-line"></i> Preview Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section">
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-code-box-line"></i>
+              </div>
+              <h2 class="services__title">Full-Stack Web Development</h2>
+              <p class="services__description">
+                With the proficiency in technologies like Javascript, Java, React, 
+                Node.js, Express.js and more, I can offer end-to-end web development services.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-layout-4-line"></i>
+              </div>
+              <h2 class="services__title">User Interface & User Experience</h2>
+              <p class="services__description">
+                Skilled in using HTML, CSS, Bootstrap and React for crafting
+                attractive and user-friendly web interfaces.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-bug-line"></i>
+              </div>
+              <h2 class="services__title">Code Optimization & Refactoring</h2>
+              <p class="services__description">
+                Experienced in enhancing code performance and maintainability
+                through complex problem-solving and platform expertise.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== MY JOURNEY ====================-->
+      <section class="qualification section">
+        <h2 class="section__title-1">
+          <span>My Journey.</span>
+        </h2>
+        <div class="qualification__container container">
+          <article class="my__journey__card">
+            <div class="qualification__tabs">
+              <div
+                class="qualification__button button--flex qualification__active"
+                data-target="#education"
+              >
+                <i class="ri-graduation-cap-line qualification__icon"></i>
+                Education
+              </div>
+              <!-- <div
+                class="qualification__button button--flex"
+                data-target="#work"
+              >
+                <i class="ri-briefcase-line qualification__icon"></i>
+                Experience
+              </div> -->
+            </div>
+          </article>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATIONS ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <article class="left__qualification">
+                  <div>
+                    <h3 class="qualification__title">B.Tech Information Technology</h3>
+                    <span class="qualification__subtitle"
+                      >Lakshmi Narain College of Technology, Bhopal</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="ri-calendar-2-line"></i>
+                      Aug 2020 - May 2024
+                    </div>
+                  </div>
+                </article>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <article class="right__qualification">
+                  <div>
+                    <h3 class="qualification__title">Higher Secondary</h3>
+                    <span class="qualification__subtitle"
+                      >G V Vidayan, Patna</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="ri-calendar-2-line"></i>
+                      June 2018 - May 2019
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <article class="left__qualification">
+                  <div>
+                    <h3 class="qualification__title">Senior Secondary</h3>
+                    <span class="qualification__subtitle"
+                      >Satyam International School, Patna</span
+                    >
+                    <div class="qualification__calendar">
+                      <i class="ri-calendar-2-line"></i>
+                      Jul 2016 - May 2017
+                    </div>
+                  </div>
+                </article>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+            <!--==================== WORK EXPERIENCE ====================-->
+            <!-- <div class="qualification__content" data-content id="work">
+              ==================== WORK EXPERIENCE 1 ====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Deputy Manager as Full Stack Developer
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Axis Bank - Mumbai</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ri-calendar-2-line"></i>
+                    Sep 2023 - Present
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                   <span class="qualification__line"></span> -->
+                <!-- </div>
+              </div> --> 
+              <!--==================== WORK EXPERIENCE 2 ====================-->
+              <!-- <div class="qualification__data">
+                <div></div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">HIGHER SECONDARY</h3>
+                  <span class="qualification__subtitle"
+                    >Saraswati Higher Secondary School, Jabalpur</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ri-calendar-2-line"></i>
+                    2018 - 2019
+                  </div>
+                </div>
+              </div> -->
+              <!--==================== WORK EXPERIENCE 3 ====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">SENIOR SECONDARY</h3>
+                  <span class="qualification__subtitle"
+                    >Saraswati Higher Secondary School, Jabalpur</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="ri-calendar-2-line"></i>
+                    2016 - 2017
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span> 
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span>Projects.</span>
+        </h2>
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/alumni.jpg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://lnct-alumni.vercel.app/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">MERN Full Stack Website</h3>
+              <h2 class="projects__title">LNCT Alumni</h2>
+              <p class="projects__description">
+                ● Developed a web platform using MERN Stack to ease the starting interaction between alumni and juniors, ultimately benefiting 1000s of upcoming juniors every year by providing interview experiences of their alumni.<br/>
+                ● Implemented a robust search feature allowing users to effortlessly filter alumni profiles by company, providing juniors with comprehensive information on alumni placements and interview experiences.<br/>
+                ● Engineered a simple registration and profile management system, empowering alumni to effortlessly share experiences and connect with juniors, fostering a vibrant community for mentorship and networking.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/shesh2509/LNCT-Alumni"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-fill"></i> View Source Code
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/shoppy.jpg"
+                alt="image"
+                class="projects__img"
+              />
+              <a
+                href="https://shoppy-is6o.onrender.com/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Full Stack Website</h3>
+              <h2 class="projects__title">Shoppy E-Commerce Website</h2>
+              <p class="projects__description">
+                ● Developed a feature-rich E-Commerce website using the MERN Stack to deliver a seamless user experience.<br/>
+                ● Enhanced user experience by implementing features such as user registration and login, seamless product browsing efficient cart management and a secure payment gateway integration.<br/>
+                ● Utilized React.JS to construct an interactive frontend, Node. JS and Express.JS to handle backend functionalities and MongoDB as a secure and efficient database system ensuring reliable storage and retrieval of product and user data.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/shesh2509/shoppy_client"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-fill"></i> View Source Code
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/thoughts.jpg"
+                alt="image"
+                class="projects__img"
+              />
+              <!-- <a href="#" class="projects__button button"> -->
+                <a
+                href="https://thoughts-ixbm.onrender.com/"
+                target="_blank"
+                class="projects__button button"
+              >
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Blog Website</h3>
+              <h2 class="projects__title">Thoughts</h2>
+              <p class="projects__description">
+                ● Built a user-friendly blog platform, allowing users to view, update, edit, and create blogs with pictures as thumbnails.<br/>
+                ● The user-friendly frontend was designed and implemented using HTML, CSS and JavaScript, providing an intuitive interface for easy access and reading of blogs.<br/>
+                ● For the backend, Node.JS and Express.JS were utilized to ensure the smooth and efficient handling of backend operations while MongoDB served as the dependable solution for data storage and retrieval.
+              </p>
+            </div>
+            <div class="projects__buttons">
+              <a
+                href="https://github.com/shesh2509/thoughts"
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-github-fill"></i> View Source Code
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
+            <h2 class="section__title-2">
+              <span>Contact Me.</span>
+            </h2>
+            <p class="contact__description-1">
+              I will read all emails. Send me any message you want and I'll get
+              back to you.
+            </p>
+            <p class="contact__description-2">
+              I need your <b>Name</b> and <b>Email Address</b>. Rest assured,
+              you'll receive my reply as soon as possible.
+            </p>
+            <div class="geometric-box"></div>
+          </div>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Me A Message</h2>
+            <form
+              action="https://formspree.io/f/xnqegrye"
+              method="POST"
+              class="contact__form"
+              id="contact-form"
+            >
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
+              <p class="contact__message" id="contact-message"></p>
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
+          <div class="contact__social">
+            <img
+              src="assets/img/curved-arrow.png"
+              alt="image"
+              class="contact__social-arrow"
+            />
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Does not send emails
+                </p>
+                <p class="contact__social-description-2">
+                  Write me on my social networks
+                </p>
+              </div>
+              <div class="contact__social-links">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100087589877042"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-facebook-circle-line"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/shesh2509/?next=%2F"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/shesh2509/"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-linkedin-box-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="footer__link">Project</a>
+          </li>
+        </ul>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="#">Shesh Nath Kumar.</a>
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!--=============== ICONIFY ===============-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>
